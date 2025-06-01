@@ -1,7 +1,12 @@
+/*5: Calcular el número de pulsaciones que debe tener una persona por cada 10 segundos de
+ejercicio aeróbico; la fórmula que se aplica es:
+cuando el sexo es femenino : num. pulsaciones = (220 - edad)/10
+y si el sexo es masculino : num. pulsaciones = (210 - edad)/10*/
 #include <iostream>
 using namespace std;
 int main(){
-	float pulsaciones, edad, genero;
+	double pulsaciones; 
+	int edad, genero; //la variable genero solo recibe los valores 1 o 0
 	cout<<"Para determinar el numero de pulsaciones indique los siguientes datos: "<<endl;
 	cout<<"Indique la edad: "<<endl;
 	cin>>edad;
