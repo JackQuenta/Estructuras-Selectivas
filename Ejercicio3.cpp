@@ -4,14 +4,14 @@ descuento del 10%*/
 #include <iostream>
 using namespace std;
 int main (){
-	double montocompra, cantcamisas, preciounitario, preciofinal;
+	double montocompra, cantcamisas, preciounitario, preciofinal; //variables
 	cout<<"Para calcular el monto total a pagar se necesitan los siguientes datos: "<<endl;
 	cout<<"Ingrese la cantidad de camisas a comprar:"<<endl;
 	cin>>cantcamisas;
 	if (cantcamisas<=0){
 		cout<<"Ingreso un valor incorrecto";
 	}
-	while (cantcamisas>0){
+	if (cantcamisas>0){
 		cout<<"Indique el precio unitario de cada camisa: "<<endl;
 		cin>>preciounitario;
 		montocompra=cantcamisas*preciounitario;
