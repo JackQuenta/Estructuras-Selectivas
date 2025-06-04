@@ -28,4 +28,5 @@ int main (){
 	}else{
 		cout<<"NotaA incorrecta"<<endl;}
 	return 0;
+	//ES UN BUEN TRABAJO 
 }
